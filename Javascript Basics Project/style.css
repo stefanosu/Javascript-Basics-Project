@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+	height: 700px;
+	background-image: url(images/nature-image.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+@media screen and (min-width: 1000px) {
+	#container {
+		height: 700px;
+		width: 1000px;
+		margin: 0 auto;
+}
+}
+
+ul {
+	list-style: none;
+	float: left;
+	text-align: center center;
+
+}
+
+div{
+
+	webkit-animation-duration: 3s;
+    animation: mymove infinite;
+    animation-duration: 2s;
+
+}
+	
+
+.header{
+	margin-top: 0px;
+	width: 100%;
+}
+
+.logo{
+	float: left;
+	margin-top: 10px;
+}
+
+nav {
+	float: right;
+	margin-top: 26px;
+}
+
+
+
+.navbar {
+		font-size: 20px;
+		color: #fff;
+		margin-left: 25px;
+		text-decoration: none;	
+}
+
+.navbar:hover{
+	text-decoration: underline;
+}
+
+ span{
+ 	width: 100%
+ }
+
+
+h1 {
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding-top: 200px;	
+}
+
+ h2 {
+ 	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	padding: 0px;	
+	clear: both;
+	margin-top: -60px;
+ 	
+ }
+
+
