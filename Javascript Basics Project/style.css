@@ -87,4 +87,14 @@ h1 {
  	
  }
 
+  input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: black;
+      color: white;
+    }
+
 

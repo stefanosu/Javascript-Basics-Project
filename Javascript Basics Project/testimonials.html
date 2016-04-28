@@ -7,6 +7,7 @@
 <meta charset="UFT-8">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="style.css"> 
+<script type="text/javascript" src="scripts.js"></script> 
 
 
 </head>
@@ -15,6 +16,7 @@
 <div class="main">
 <div id="container"> 
 
+	 <!-- added small icon image here-->
 	 <div class="header">
 	 <img class="logo" src="images/favicon.ico">
 
@@ -27,7 +29,18 @@
 
 	</nav>
 
+			
+			<!-- Creating an input email here!-->
+		<form name="frm" method="post" action="thankyou.html">
 
+		<input type="text" name="email" placeholder="Enter email address"/>
+		<br/>
+	
+	<input type="submit" value="Submit" onclick="return val();" />
+	
+	<input type="reset" value="Reset"/>
+
+	</form>
 
 </body>
 </html>
