@@ -1,3 +1,4 @@
+//test comment
 function val () {
 	if(frm.email.value =="") {
 		
