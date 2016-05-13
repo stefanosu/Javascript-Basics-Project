@@ -1,3 +1,10 @@
+// I changed my heading text to Hello world using JS.
+// I used the function querySelector to grab reference to my heading and store it in variable called myHeading.
+
+var myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
+
+
 //NOTE: Not sure what frm.email.focus does. I commented it out to see if there were any changes but could not find any.
 
 //if the text field is empty then give  the alert and return false
